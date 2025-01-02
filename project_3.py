@@ -1,6 +1,6 @@
 import random
 your_choise = int(input("what do you choose? type 0 for rock, 1 for paper and 2 for scissors\n"))
-choise = random.randint(0,2)
+choise = random.randint(0,2) #Computer choise as rock-paper-scissor determined by number btw 0 to 2 randomly
 Rock = '''
               _____
           ---' ____)___
