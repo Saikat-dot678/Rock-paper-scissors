@@ -21,7 +21,7 @@ Paper = '''
           '''
 Scissors = ''' 
                ______
-            ---'   ___)___
+            ---'   ___)____
                      ______)
                  __________)
                 (_____)
@@ -43,6 +43,6 @@ elif choise == 2:
 if choise == your_choise:
     print("It's a tie!")
 elif choise == 0 and your_choise == 1 or choise == 1 and your_choise == 2 or choise == 2 and your_choise == 0:
-    print("You win!")
+    print("You Win!")
 elif choise == 1 and your_choise == 0 or choise == 2 and your_choise == 1 or choise == 0 and your_choise == 2:
-    print("You lose!")
+    print("You Lose!")
